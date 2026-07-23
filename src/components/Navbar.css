@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+nav div {
+  display: flex;
+  gap: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: red;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+h2 {
+  color: black;
+}
