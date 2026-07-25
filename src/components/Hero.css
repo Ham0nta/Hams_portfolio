@@ -1,0 +1,31 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 80px;
+}
+.hero-image {
+  align-self: flex-start;
+}
+.hero-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.hero-buttons a {
+  text-decoration: none;
+  background-color: chartreuse;
+  color: black;
+  transition: 0.3s;
+}
+.hero-buttons a:hover{
+  transform: translateY(-3px);
+}
