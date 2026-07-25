@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Hero.css";
 import profileImage from "../assets/profile.JPG";
 function Hero() {
@@ -15,8 +15,12 @@ function Hero() {
           I am interested in web development, and building practical projects.
         </p>
         <div className="hero-buttons">
-          <button><Link to ="/projects">View My Projects</Link></button>
-          <button><Link to="/Contacts">Contact Me</Link></button>
+          <button>
+            <Link to="/projects">View My Projects</Link>
+          </button>
+          <button>
+            <Link to="/Contacts">Contact Me</Link>
+          </button>
         </div>
       </div>
     </section>

@@ -26,6 +26,6 @@
   color: black;
   transition: 0.3s;
 }
-.hero-buttons a:hover{
+.hero-buttons a:hover {
   transform: translateY(-3px);
 }
