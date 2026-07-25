@@ -1,3 +1,4 @@
+//added Hero section
 import { Link } from "react-router-dom";
 import "./Hero.css";
 import profileImage from "../assets/profile.JPG";
@@ -15,7 +16,7 @@ function Hero() {
           I am interested in web development, and building practical projects.
         </p>
         <div className="hero-buttons">
-          <button>
+          <button> 
             <Link to="/projects">View My Projects</Link>
           </button>
           <button>
