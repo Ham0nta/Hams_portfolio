@@ -1,3 +1,22 @@
+:root {
+  --bg: #ffffff;
+  --bg-alt: #f4f4f6;
+  --text: black;
+  --text-muted: #5a5a5a;
+  --accent: #6c5ce7;
+  --accent-hover: #5849c4;
+  --border: #e2e2e2;
+}
+body.dark {
+  --bg: #121212;
+  --bg-alt: #1c1c1e;
+  --text: #f2f2f2;
+  --text-muted: #b0b0b0;
+  --accent: #a29bfe;
+  --accent-hover: #8b7ffb;
+  --border: #2e2e30;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +26,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: bisque;
   color: blueviolet;
+}
+a {
+  color: inherit;
 }

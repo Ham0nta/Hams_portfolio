@@ -16,11 +16,11 @@ function Hero() {
           I am interested in web development, and building practical projects.
         </p>
         <div className="hero-buttons">
-          <button> 
+          <button>
             <Link to="/projects">View My Projects</Link>
           </button>
           <button>
-            <Link to="/Contacts">Contact Me</Link>
+            <Link to="/Contact">Contact Me</Link>
           </button>
         </div>
       </div>
