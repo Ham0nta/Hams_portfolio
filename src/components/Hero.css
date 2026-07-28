@@ -20,10 +20,23 @@
   gap: 20px;
   margin-top: 20px;
 }
+.hero-buttons button {
+  background-color: var(--accent);
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
+}
+.hero-buttons button:hover {
+  background-color: var(--accent-hover);
+  transform: translateY(-3px);
+}
 .hero-buttons a {
   text-decoration: none;
-  background-color: chartreuse;
-  color: black;
+  color: white;
   transition: 0.3s;
 }
 .hero-buttons a:hover {
